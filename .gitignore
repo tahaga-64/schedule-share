@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.runtime/
+.test-output/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+.access-links.json
+.env
+
+/server/seed.json
+backups/
+*.backup.json
+.env.*

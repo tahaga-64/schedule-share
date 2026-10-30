@@ -1,0 +1,13 @@
+node_modules
+.runtime
+.test-output
+docs
+tests
+.git
+.env
+.env.*
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+.access-links.json
+backups

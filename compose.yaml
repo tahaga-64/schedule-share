@@ -1,0 +1,13 @@
+services:
+  schedule:
+    build: .
+    ports:
+      - "127.0.0.1:3217:3217"
+    volumes:
+      - schedule-data:/data
+    environment:
+      APP_ACCESS_MODE: link
+      DATA_DIR: /data
+    restart: unless-stopped
+volumes:
+  schedule-data:
