@@ -18,10 +18,10 @@ GitHubのコード → 共有用サーバーで1つ起動 → 1つのSQLite
 
 ## クローンして起動
 
-Node.js 24以上を用意します。リポジトリURLは公開後の実際のURLへ置き換えてください。この配布物は公開前の状態です。
+Node.js 24以上を用意します。このリポジトリはコードの配布用です。全員で同じ予定表を使うには、共有用サーバーへ1つ配置してください。
 
 ~~~sh
-git clone <リポジトリURL> schedule-share
+git clone https://github.com/tahaga-64/schedule-share.git schedule-share
 cd schedule-share
 npm ci --ignore-scripts
 npm run build
